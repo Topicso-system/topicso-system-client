@@ -18,6 +18,24 @@
             "title": "JUnit 5 Basics 3 - Why do we need a testing framework",
             "url": "https://www.youtube.com/embed?v=deMlViVF-mE&list=PLqq-6Pq4lTTa4ad5JISViSb2FVG8Vwa4o",
             "thumbnail": "https://img.youtube.com/vi/deMlViVF-mE/sddefault.jpg"
+        },
+        {
+            "id": 4,
+            "title": "JUnit 5 Basics 4 - Why JUnit 5",
+            "url": "https://www.youtube.com/embed?v=sQ4KgrxGQSc&list=PLqq-6Pq4lTTa4ad5JISViSb2FVG8Vwa4o",
+            "thumbnail": "https://img.youtube.com/vi/sQ4KgrxGQSc/sddefault.jpg"
+        },
+        {
+            "id": 5,
+            "title": "JUnit 5 Basics 5 - JUnit 5 Architecture",
+            "url": "https://www.youtube.com/embed?v=1xRcRYKOTHs&list=PLqq-6Pq4lTTa4ad5JISViSb2FVG8Vwa4o",
+            "thumbnail": "https://img.youtube.com/vi/1xRcRYKOTHs/sddefault.jpg"
+        },
+        {
+            "id": 6,
+            "title": "JUnit 5 Basics 6 - Creating a new JUnit 5 Maven project",
+            "url": "https://www.youtube.com/embed?v=09ZZiNgUPVU&list=PLqq-6Pq4lTTa4ad5JISViSb2FVG8Vwa4o&index=6",
+            "thumbnail": "https://img.youtube.com/vi/09ZZiNgUPVU/sddefault.jpg"
         }
     ]
 }
