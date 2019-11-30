@@ -1,5 +1,8 @@
 <h2>Videos</h2>
 
 <div *ngFor="let video of videos">
-  {{video.title}}
+    <h2>{{video.title}}</h2>
+
+    <iframe [src]="video.url | safe" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+
 </div>
