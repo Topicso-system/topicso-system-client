@@ -1,0 +1,14 @@
+{
+    "videos": [
+        {
+            "id": 1,
+            "title": "JUnit 5 Basics 1 - Introduction and agenda",
+            "url": "https://www.youtube.com/embed?v=2E3WqYupx7c&list=PLqq-6Pq4lTTa4ad5JISViSb2FVG8Vwa4o"
+        },
+        {
+            "id": 2,
+            "title": "JUnit 5 Basics 2 - Why write tests",
+            "url": "https://www.youtube.com/embed?v=kp6ei9mEggc&list=PLqq-6Pq4lTTa4ad5JISViSb2FVG8Vwa4o"
+        }
+    ]
+}
