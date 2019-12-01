@@ -3,10 +3,10 @@ import { VideoService } from '../shared/video/video.service';
 
 @Component({
   selector: 'app-videos',
-  templateUrl: './videos.component.html',
-  styleUrls: ['./videos.component.sass']
+  templateUrl: './list-videos.component.html',
+  styleUrls: ['./list-videos.component.sass']
 })
-export class VideosComponent implements OnInit {
+export class ListVideosComponent implements OnInit {
   
   videos: Array<any>;
 

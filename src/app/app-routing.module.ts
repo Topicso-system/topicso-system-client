@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { VideosComponent } from './videos/videos.component';
+import { ListVideosComponent } from './list-videos/list-videos.component';
 
 
 const routes: Routes = [
@@ -11,7 +11,7 @@ const routes: Routes = [
   },
   {
     path: 'videos',
-    component: VideosComponent,
+    component: ListVideosComponent,
     data: { title: 'Videos' }
   }
 ];
