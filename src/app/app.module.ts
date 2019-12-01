@@ -10,6 +10,7 @@ import { ListVideosComponent } from './list-videos/list-videos.component';
 import { WatchVideoComponent } from './watch-video/watch-video.component';
 import { SafePipe } from './shared/pipes/SafePipe';
 import { from } from 'rxjs';
+import { VideoFilterComponent } from './list-videos/video-filter/video-filter.component';
 
 const appRoutes: Routes = [
   { path: 'watchVideo/:youtubeId', component: WatchVideoComponent },
@@ -22,7 +23,8 @@ const appRoutes: Routes = [
     PageNotFoundComponent,
     ListVideosComponent,
     SafePipe,
-    WatchVideoComponent
+    WatchVideoComponent,
+    VideoFilterComponent
   ],
   imports: [
     BrowserModule,
