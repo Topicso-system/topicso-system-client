@@ -1,5 +1,5 @@
 <div class="row">
-    
+
     <div class="col-md-8">
         <div *ngFor="let video of videos" (click)="showVideo(video.youtubeId)">
             <!-- Video Post -->
@@ -14,6 +14,9 @@
                     <div class="col-lg-8">
                         <div class="card-body">
                             <h4 class="card-title">{{video.title}}</h4>
+                            <div class="card-subtitle">
+                                <star-rating value="5" checkedcolor="gold" uncheckedcolor="#fff" size="18px" readonly="true"></star-rating>
+                            </div>
                             <p class="card-text">Some example video description.</p>
                         </div>
                     </div>
