@@ -3,37 +3,37 @@
         {
             "id": 1,
             "title": "JUnit 5 Basics 1 - Introduction and agenda",
-            "youtubeId" : "2E3WqYupx7c",
+            "youtubeId": "2E3WqYupx7c",
             "rating": 5
         },
         {
             "id": 2,
             "title": "JUnit 5 Basics 2 - Why write tests",
-            "youtubeId" : "kp6ei9mEggc",
+            "youtubeId": "kp6ei9mEggc",
             "rating": 4.8
         },
         {
             "id": 3,
             "title": "JUnit 5 Basics 3 - Why do we need a testing framework",
-            "youtubeId" : "deMlViVF-mE",
+            "youtubeId": "deMlViVF-mE",
             "rating": 4.1
         },
         {
             "id": 4,
             "title": "JUnit 5 Basics 4 - Why JUnit 5",
-            "youtubeId" : "sQ4KgrxGQSc",
+            "youtubeId": "sQ4KgrxGQSc",
             "rating": 3.6
         },
         {
             "id": 5,
             "title": "JUnit 5 Basics 5 - JUnit 5 Architecture",
-            "youtubeId" : "1xRcRYKOTHs",
+            "youtubeId": "1xRcRYKOTHs",
             "rating": 3.9
         },
         {
             "id": 6,
             "title": "JUnit 5 Basics 6 - Creating a new JUnit 5 Maven project",
-            "youtubeId" : "09ZZiNgUPVU",
+            "youtubeId": "09ZZiNgUPVU",
             "rating": 4.8
         }
     ]
