@@ -12,6 +12,7 @@ import { SafePipe } from './shared/pipes/SafePipe';
 import { VideoFilterComponent } from './list-videos/video-filter/video-filter.component';
 
 const appRoutes: Routes = [
+  { path: 'list', component: ListVideosComponent },
   { path: 'watchVideo/:youtubeId', component: WatchVideoComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
