@@ -17,4 +17,8 @@ export class VideosComponent implements OnInit {
       this.videos = data;
     });
   }
+
+  showVideo(videoId) {
+
+  }
 }
