@@ -15,7 +15,7 @@
                         <div class="card-body">
                             <h6 class="card-title">{{video.title}}</h6>
                             <div class="card-subtitle">
-                                <star-rating value="5" checkedcolor="gold" uncheckedcolor="#fff" size="18px" readonly="true"></star-rating>
+                                <star-rating [value]="video.rating" checkedcolor="gold" uncheckedcolor="#fff" size="18px" readonly="true"></star-rating>
                             </div>
                             <p class="card-text">Some example video description.</p>
                         </div>
