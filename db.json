@@ -3,39 +3,32 @@
         {
             "id": 1,
             "title": "JUnit 5 Basics 1 - Introduction and agenda",
-            "url": "https://www.youtube.com/embed?v=2E3WqYupx7c&list=PLqq-6Pq4lTTa4ad5JISViSb2FVG8Vwa4o",
-            "thumbnail": "https://img.youtube.com/vi/2E3WqYupx7c/sddefault.jpg"
+            "youtubeId" : "2E3WqYupx7c"
         },
         {
             "id": 2,
             "title": "JUnit 5 Basics 2 - Why write tests",
-            "url": "https://www.youtube.com/embed?v=kp6ei9mEggc&list=PLqq-6Pq4lTTa4ad5JISViSb2FVG8Vwa4o",
-            "thumbnail": "https://img.youtube.com/vi/kp6ei9mEggc/sddefault.jpg"
-
+            "youtubeId" : "kp6ei9mEggc"
         },
         {
             "id": 3,
             "title": "JUnit 5 Basics 3 - Why do we need a testing framework",
-            "url": "https://www.youtube.com/embed?v=deMlViVF-mE&list=PLqq-6Pq4lTTa4ad5JISViSb2FVG8Vwa4o",
-            "thumbnail": "https://img.youtube.com/vi/deMlViVF-mE/sddefault.jpg"
+            "youtubeId" : "deMlViVF-mE"
         },
         {
             "id": 4,
             "title": "JUnit 5 Basics 4 - Why JUnit 5",
-            "url": "https://www.youtube.com/embed?v=sQ4KgrxGQSc&list=PLqq-6Pq4lTTa4ad5JISViSb2FVG8Vwa4o",
-            "thumbnail": "https://img.youtube.com/vi/sQ4KgrxGQSc/sddefault.jpg"
+            "youtubeId" : "sQ4KgrxGQSc"
         },
         {
             "id": 5,
             "title": "JUnit 5 Basics 5 - JUnit 5 Architecture",
-            "url": "https://www.youtube.com/embed?v=1xRcRYKOTHs&list=PLqq-6Pq4lTTa4ad5JISViSb2FVG8Vwa4o",
-            "thumbnail": "https://img.youtube.com/vi/1xRcRYKOTHs/sddefault.jpg"
+            "youtubeId" : "1xRcRYKOTHs"
         },
         {
             "id": 6,
             "title": "JUnit 5 Basics 6 - Creating a new JUnit 5 Maven project",
-            "url": "https://www.youtube.com/embed?v=09ZZiNgUPVU&list=PLqq-6Pq4lTTa4ad5JISViSb2FVG8Vwa4o&index=6",
-            "thumbnail": "https://img.youtube.com/vi/09ZZiNgUPVU/sddefault.jpg"
+            "youtubeId" : "09ZZiNgUPVU"
         }
     ]
 }
