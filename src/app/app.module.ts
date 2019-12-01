@@ -22,7 +22,7 @@ const appRoutes: Routes = [
     PageNotFoundComponent,
     ListVideosComponent,
     SafePipe,
-    WatchVideoComponent.
+    WatchVideoComponent
   ],
   imports: [
     BrowserModule,
