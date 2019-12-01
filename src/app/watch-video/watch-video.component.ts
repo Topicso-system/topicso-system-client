@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-watch-video',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WatchVideoComponent implements OnInit {
 
-  constructor() { }
+  youtubeId: String;
+
+  constructor(private activatedRoute: ActivatedRoute) { }
 
   ngOnInit() {
+    this.activatedRoute.paramMap.subscribe(params => {
+      this.youtubeId = params.get('youtubeId');
+    })
   }
 
 }

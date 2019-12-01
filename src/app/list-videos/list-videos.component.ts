@@ -20,6 +20,7 @@ export class ListVideosComponent implements OnInit {
   }
 
   showVideo(videoId) {
-    this.router.navigate(['/watchVideo']);
+    console.log(videoId);
+    this.router.navigate(['/watchVideo', videoId]);
   }
 }

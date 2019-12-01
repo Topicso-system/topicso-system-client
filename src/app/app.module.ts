@@ -12,7 +12,7 @@ import { SafePipe } from './shared/pipes/SafePipe';
 import { from } from 'rxjs';
 
 const appRoutes: Routes = [
-  { path: 'watchVideo', component: WatchVideoComponent },
+  { path: 'watchVideo/:youtubeId', component: WatchVideoComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
 
