@@ -12,6 +12,7 @@ import { ListVideosComponent } from './videos/list-video/list-video.component';
 import { WatchVideoComponent } from './videos/watch-video/watch-video.component';
 import { SafePipe } from './shared/pipes/safe/safe.pipe';
 import { VideoFilterComponent } from './videos/video-filter/video-filter.component';
+import { VideoCardComponent } from './videos/video-card/video-card.component';
 
 const appRoutes: Routes = [
   { path: 'list', component: ListVideosComponent },
@@ -26,7 +27,8 @@ const appRoutes: Routes = [
     ListVideosComponent,
     SafePipe,
     WatchVideoComponent,
-    VideoFilterComponent
+    VideoFilterComponent,
+    VideoCardComponent
   ],
   imports: [
     BrowserModule,
