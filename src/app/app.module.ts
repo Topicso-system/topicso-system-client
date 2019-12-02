@@ -10,7 +10,7 @@ import { AppComponent } from './app.component';
 import { PageNotFoundComponent } from './other/pageNotFound.component';
 import { ListVideosComponent } from './list-videos/list-videos.component';
 import { WatchVideoComponent } from './watch-video/watch-video.component';
-import { SafePipe } from './shared/pipes/SafePipe';
+import { SafePipe } from './shared/pipes/safe.pipe';
 import { VideoFilterComponent } from './list-videos/video-filter/video-filter.component';
 
 const appRoutes: Routes = [
