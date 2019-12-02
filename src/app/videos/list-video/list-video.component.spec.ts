@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ListVideosComponent as ListVideosComponent } from './list-videos.component';
+import { ListVideosComponent as ListVideosComponent } from './list-video.component';
 
 describe('ListVideosComponent', () => {
   let component: ListVideosComponent;
