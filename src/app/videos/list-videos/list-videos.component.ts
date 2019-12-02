@@ -4,8 +4,8 @@ import { VideoService } from '../../shared/services/video/video.service';
 
 @Component({
   selector: 'app-videos',
-  templateUrl: './list-video.component.html',
-  styleUrls: ['./list-video.component.sass']
+  templateUrl: './list-videos.component.html',
+  styleUrls: ['./list-videos.component.sass']
 })
 export class ListVideosComponent implements OnInit {
 
