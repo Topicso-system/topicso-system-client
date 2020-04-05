@@ -14,6 +14,7 @@ import { SafePipe } from './shared/pipes/safe/safe.pipe';
 import { VideoFilterComponent } from './videos/video-filter/video-filter.component';
 import { VideoCardComponent } from './videos/video-card/video-card.component';
 import { NavigationComponent } from './core/navigation/navigation.component';
+import { environment } from 'src/environments/environment';
 
 const appRoutes: Routes = [
   { path: 'list', component: ListVideosComponent },
@@ -39,7 +40,7 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes),
     RatingModule
   ],
-  providers: [],
+  providers: [{ provide: "API_BASE_URL", useValue: environment.apiUrl }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, Inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
@@ -7,11 +7,13 @@ import { Observable } from 'rxjs';
 })
 export class VideoService {
 
-  constructor(private http: HttpClient) {
+  baseUrl: string;
 
+  constructor(private http: HttpClient, @Inject('API_BASE_URL') baseUrl: string) {
+    this.baseUrl = baseUrl;
   }
 
   getAll(): Observable<any> {
-    return this.http.get('//localhost:8080/videos');
+    return this.http.get(this.baseUrl + '/videos');
   }
 }
