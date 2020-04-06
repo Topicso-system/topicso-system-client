@@ -3,15 +3,15 @@
         {
             "id": 1,
             "name": "Information Technologies",
-            "picture": "link to the picture",
+            "picture": "../assets/img/categories/IT.png",
             "order": 1
         },
         {
             "id": 2,
-            "name": "Sport",
-            "picture": "link to the picture",
+            "name": "Sports",
+            "picture": "../assets/img/categories/Sports.png",
             "order": 2
-        }
+        }              
     ],
     "videos": [
         {
