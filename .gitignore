@@ -47,3 +47,6 @@ Thumbs.db
 
 # Angular IDE
 .vscode/*
+
+#img
+src/assets/img/categories/*
