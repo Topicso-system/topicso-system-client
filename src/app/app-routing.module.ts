@@ -14,6 +14,11 @@ const routes: Routes = [
     path: 'videos',
     component: ListVideosComponent,
     data: { title: 'Videos' }
+  },
+  {
+    path: 'categories',
+    component: ListCategoryComponent,
+    data: { title: 'Categories' }
   }
 ];
 

@@ -1,4 +1,18 @@
 {
+    "categories": [
+        {
+            "id": 1,
+            "name": "Information Technologies",
+            "picture": "link to the picture",
+            "order": 1
+        },
+        {
+            "id": 2,
+            "name": "Sport",
+            "picture": "link to the picture",
+            "order": 2
+        }
+    ],
     "videos": [
         {
             "id": 1,
