@@ -15,6 +15,8 @@ import { VideoFilterComponent } from './video/component/video-filter/video-filte
 import { VideoCardComponent } from './video/component/video-card/video-card.component';
 import { NavigationComponent } from './shared/navigation/navigation.component';
 import { environment } from 'src/environments/environment';
+import { ListCategoryComponent } from './category/component/list-category/list-category.component';
+
 
 const appRoutes: Routes = [
   { path: 'list', component: ListVideosComponent },
@@ -31,7 +33,8 @@ const appRoutes: Routes = [
     WatchVideoComponent,
     VideoFilterComponent,
     VideoCardComponent,
-    NavigationComponent
+    NavigationComponent,
+    ListCategoryComponent
   ],
   imports: [
     BrowserModule,
