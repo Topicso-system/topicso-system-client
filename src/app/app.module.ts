@@ -16,6 +16,7 @@ import { VideoCardComponent } from './video/component/video-card/video-card.comp
 import { NavigationComponent } from './shared/navigation/navigation.component';
 import { environment } from 'src/environments/environment';
 import { ListCategoryComponent } from './category/component/list-category/list-category.component';
+import { CategoryCardComponent } from './category/component/category-card/category-card.component';
 
 
 const appRoutes: Routes = [
@@ -34,7 +35,8 @@ const appRoutes: Routes = [
     VideoFilterComponent,
     VideoCardComponent,
     NavigationComponent,
-    ListCategoryComponent
+    ListCategoryComponent,
+    CategoryCardComponent
   ],
   imports: [
     BrowserModule,
