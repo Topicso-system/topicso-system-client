@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { VideoService } from '../../shared/services/video/video.service';
+import { VideoService } from '../../service/video.service';
 
 @Component({
   selector: 'app-videos',

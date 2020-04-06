@@ -8,11 +8,11 @@ import { RatingModule } from 'ng-starrating';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PageNotFoundComponent } from './other/pageNotFound.component';
-import { ListVideosComponent } from './videos/list-video/list-video.component';
-import { WatchVideoComponent } from './videos/watch-video/watch-video.component';
+import { ListVideosComponent } from './video/component/list-video/list-video.component';
+import { WatchVideoComponent } from './video/component/watch-video/watch-video.component';
 import { SafePipe } from './shared/pipes/safe/safe.pipe';
-import { VideoFilterComponent } from './videos/video-filter/video-filter.component';
-import { VideoCardComponent } from './videos/video-card/video-card.component';
+import { VideoFilterComponent } from './video/component/video-filter/video-filter.component';
+import { VideoCardComponent } from './video/component/video-card/video-card.component';
 import { NavigationComponent } from './shared/navigation/navigation.component';
 import { environment } from 'src/environments/environment';
 
