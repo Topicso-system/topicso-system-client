@@ -8,10 +8,16 @@
         },
         {
             "id": 2,
-            "name": "Sports",
-            "picture": "../assets/img/categories/Sports.png",
+            "name": "Sport",
+            "picture": "../assets/img/categories/Sport.png",
             "order": 2
-        }              
+        },
+        {
+            "id": 2,
+            "name": "Dance",
+            "picture": "../assets/img/categories/Dance.png",
+            "order": 3
+        }                 
     ],
     "videos": [
         {
