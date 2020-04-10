@@ -17,10 +17,12 @@ import { NavigationComponent } from './shared/navigation/navigation.component';
 import { environment } from 'src/environments/environment';
 import { ListCategoryComponent } from './category/component/list-category/list-category.component';
 import { CategoryCardComponent } from './category/component/category-card/category-card.component';
+import { VideoGridComponent } from './video/component/video-grid/video-grid.component';
 
 
 const appRoutes: Routes = [
   { path: 'list', component: ListVideosComponent },
+  { path: 'grid', component: VideoGridComponent },
   { path: 'watchVideo/:youtubeId', component: WatchVideoComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
@@ -36,7 +38,8 @@ const appRoutes: Routes = [
     VideoCardComponent,
     NavigationComponent,
     ListCategoryComponent,
-    CategoryCardComponent
+    CategoryCardComponent,
+    VideoGridComponent
   ],
   imports: [
     BrowserModule,
