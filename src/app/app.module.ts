@@ -8,7 +8,7 @@ import { RatingModule } from 'ng-starrating';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PageNotFoundComponent } from './other/pageNotFound.component';
-import { ListVideosComponent } from './video/component/list-video/list-video.component';
+import { VideoListComponent } from './video/component/video-list/video-list.component';
 import { WatchVideoComponent } from './video/component/watch-video/watch-video.component';
 import { SafePipe } from './shared/pipes/safe/safe.pipe';
 import { VideoFilterComponent } from './video/component/video-filter/video-filter.component';
@@ -22,7 +22,7 @@ import { VideoGridItemComponent } from './video/component/video-grid-item/video-
 
 
 const appRoutes: Routes = [
-  { path: 'list', component: ListVideosComponent },
+  { path: 'list', component: VideoListComponent },
   { path: 'category/:categoryId', component: VideoGridComponent },
   { path: 'watchVideo/:youtubeId', component: WatchVideoComponent },
   { path: '**', component: PageNotFoundComponent }
@@ -32,7 +32,7 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     PageNotFoundComponent,
-    ListVideosComponent,
+    VideoListComponent,
     SafePipe,
     WatchVideoComponent,
     VideoFilterComponent,

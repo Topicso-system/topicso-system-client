@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ListVideosComponent } from './video/component/list-video/list-video.component';
+import { VideoListComponent } from './video/component/video-list/video-list.component';
 import { ListCategoryComponent } from './category/component/list-category/list-category.component';
 
 
@@ -12,7 +12,7 @@ const routes: Routes = [
   },
   {
     path: 'videos',
-    component: ListVideosComponent,
+    component: VideoListComponent,
     data: { title: 'Videos' }
   },
   {
