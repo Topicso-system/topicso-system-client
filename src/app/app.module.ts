@@ -18,6 +18,7 @@ import { environment } from 'src/environments/environment';
 import { ListCategoryComponent } from './category/component/list-category/list-category.component';
 import { CategoryCardComponent } from './category/component/category-card/category-card.component';
 import { VideoGridComponent } from './video/component/video-grid/video-grid.component';
+import { VideoGridItemComponent } from './video/component/video-grid-item/video-grid-item.component';
 
 
 const appRoutes: Routes = [
@@ -39,7 +40,8 @@ const appRoutes: Routes = [
     NavigationComponent,
     ListCategoryComponent,
     CategoryCardComponent,
-    VideoGridComponent
+    VideoGridComponent,
+    VideoGridItemComponent
   ],
   imports: [
     BrowserModule,
