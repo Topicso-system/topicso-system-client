@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { VideoService } from '../../service/video.service';
 
 
@@ -10,12 +10,17 @@ import { VideoService } from '../../service/video.service';
 })
 export class VideoGridComponent implements OnInit {
 
-
+  categoryId: String;
   videos: Array<any>;
+  
 
-  constructor(private videoService: VideoService, private router: Router) { }
+  constructor(private videoService: VideoService, private router: Router, private activatedRoute: ActivatedRoute) { }
 
   ngOnInit() {
+    this.activatedRoute.paramMap.subscribe(params => {
+      this.categoryId = params.get('youtubeId');
+    })
+
     this.videoService.getAll().subscribe(data => {
       this.videos = data;
     });

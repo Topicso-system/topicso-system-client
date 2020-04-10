@@ -23,7 +23,7 @@ import { VideoGridItemComponent } from './video/component/video-grid-item/video-
 
 const appRoutes: Routes = [
   { path: 'list', component: ListVideosComponent },
-  { path: 'grid', component: VideoGridComponent },
+  { path: 'category/:categoryId', component: VideoGridComponent },
   { path: 'watchVideo/:youtubeId', component: WatchVideoComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
