@@ -4,7 +4,7 @@
 
         <div class="col-md-8">
             <div *ngFor="let video of videos" (click)="showVideo(video.youtubeId)">
-                <app-video-card [video]='video'></app-video-card>
+                <app-video-list-item [video]='video'></app-video-list-item>
             </div>
         </div>
 

@@ -12,7 +12,7 @@ import { ListVideosComponent } from './video/component/list-video/list-video.com
 import { WatchVideoComponent } from './video/component/watch-video/watch-video.component';
 import { SafePipe } from './shared/pipes/safe/safe.pipe';
 import { VideoFilterComponent } from './video/component/video-filter/video-filter.component';
-import { VideoCardComponent } from './video/component/video-card/video-card.component';
+import { VideoListItemComponent } from './video/component/video-list-item/video-list-item.component';
 import { NavigationComponent } from './shared/navigation/navigation.component';
 import { environment } from 'src/environments/environment';
 import { ListCategoryComponent } from './category/component/list-category/list-category.component';
@@ -35,7 +35,7 @@ const appRoutes: Routes = [
     SafePipe,
     WatchVideoComponent,
     VideoFilterComponent,
-    VideoCardComponent,
+    VideoListItemComponent,
     NavigationComponent,
     ListCategoryComponent,
     CategoryCardComponent,
