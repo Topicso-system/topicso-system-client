@@ -13,7 +13,7 @@ export class VideoService {
     this.baseUrl = baseUrl;
   }
 
-  getAll(): Observable<any> {
+  getForCategory(categoryId: string): Observable<any> {
     return this.http.get(this.baseUrl + '/videos');
   }
 }

@@ -10,20 +10,17 @@ import { VideoService } from '../../service/video.service';
 })
 export class VideoGridComponent implements OnInit {
 
-  categoryId: String;
+  categoryId: number;
   videos: Array<any>;
   
-
   constructor(private videoService: VideoService, private router: Router, private activatedRoute: ActivatedRoute) { }
 
   ngOnInit() {
     this.activatedRoute.paramMap.subscribe(params => {
-      this.categoryId = params.get('youtubeId');
+      this.videoService.getForCategory(params.get('youtubeId')).subscribe(data => {
+        this.videos = data;
+      });
     })
-
-    this.videoService.getAll().subscribe(data => {
-      this.videos = data;
-    });
   }
 
   showVideo(videoId) {

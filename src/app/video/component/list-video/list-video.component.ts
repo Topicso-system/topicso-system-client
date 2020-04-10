@@ -14,7 +14,7 @@ export class ListVideosComponent implements OnInit {
   constructor(private videoService: VideoService, private router: Router) { }
 
   ngOnInit() {
-    this.videoService.getAll().subscribe(data => {
+    this.videoService.getForCategory("1").subscribe(data => {
       this.videos = data;
     });
   }
